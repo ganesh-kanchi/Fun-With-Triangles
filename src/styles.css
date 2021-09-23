@@ -140,3 +140,28 @@ button{
   #Quiz-btn{
       margin-bottom: 0;
   }
+
+  h2#sub-heading{
+      border: 3px solid rgb(0, 153, 255);
+      border-radius: 10px;
+      width: 450px;
+      margin: auto;
+      margin-bottom: 1rem;
+      padding:5px 0px 5px 0px;
+  }
+
+  #Length-A,#Length-B{
+      display: block;
+      width: 450px;
+      margin: auto;
+      border: 3px solid rgb(0, 153, 255);
+      border-radius: 10px;
+      font-size: x-large;
+      margin-top: 1rem;
+      margin-bottom: 1rem;
+      padding: 5px 0 5px 0;
+  }
+
+  .length-l{
+      font-size: x-large;
+  }
