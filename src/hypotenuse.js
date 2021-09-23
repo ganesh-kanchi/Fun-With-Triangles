@@ -13,7 +13,7 @@ hypOutput.style.display = "none";
 
 calBtn.addEventListener("click", function hypCalculator() {
     var hyp = Math.sqrt((lengthA.value * lengthA.value) + (lengthB.value * lengthB.value))
-    hypOutput.innerText = "The Hypotenuse is " + hyp + " units."
+    hypOutput.innerText = "the Hypotenuse is " + hyp + " units."
     hypOutput.style.display = "block";
 }
 );

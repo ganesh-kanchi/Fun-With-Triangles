@@ -165,3 +165,55 @@ button{
   .length-l{
       font-size: x-large;
   }
+
+  #Base,#Height{
+    display: block;
+    width: 450px;
+    margin: auto;
+    border: 3px solid rgb(0, 153, 255);
+    border-radius: 10px;
+    font-size: x-large;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    padding: 5px 0 5px 0;
+}
+
+.Area-l{
+    font-size: x-large;
+}
+
+#footer-head{
+    margin-bottom: 0.5rem;
+}
+
+#footer-ul{
+    display: inline-block;
+    list-style-type: none;
+    margin-block-start: 0;
+    margin-block-end: 0;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 0px;
+    margin-bottom: 1rem;
+}
+
+
+.footer-li{
+    display: inline-block;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+footer{
+    font-weight: 500;
+}
+
+.change-color-svg{
+    fill: rgb(0, 153, 255);
+    height: 6vh;
+}
+
+#hyp-output{
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+}

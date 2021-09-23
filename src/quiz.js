@@ -13,7 +13,7 @@ function scoreCalculator() {
         }
         index = index + 1;
     }
-    quizOutput.innerText = "Your score is " + score;
+    quizOutput.innerText = "Your score is " + score + ".";
 }
 
 quizBtn.addEventListener("click", scoreCalculator);
