@@ -222,3 +222,7 @@ p.questions{
     font-size: large;
     font-weight: 600;
 }
+
+.change-color-svg:hover{
+    fill: black;
+}
