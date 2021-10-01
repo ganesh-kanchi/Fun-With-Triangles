@@ -118,6 +118,8 @@ button{
       height: 5vh;
       border-radius: 10px;
       border: 3px solid rgb(0, 153, 255);
+      font-size: larger;
+      text-align: center;
   }
 
   #submit-angles{
@@ -125,7 +127,7 @@ button{
       margin: auto;
       margin-top: 2rem;
       margin-bottom: 2rem;
-      font-size: large;
+      font-size: x-large;
       width: 50vw;
       box-sizing: content-box;
       padding: 5px 3px 5px 3px;
@@ -162,6 +164,10 @@ button{
       padding: 5px 0 5px 0;
   }
 
+  #Length-Btn{
+      font-size: x-large;
+  }
+
   .length-l{
       font-size: x-large;
   }
@@ -180,6 +186,14 @@ button{
 
 .Area-l{
     font-size: x-large;
+}
+
+#Area-Btn{
+    font-size: x-large;
+}
+
+#Quiz-btn{
+    font-size: large;
 }
 
 #footer-head{
