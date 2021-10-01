@@ -162,6 +162,7 @@ button{
       margin-top: 1rem;
       margin-bottom: 1rem;
       padding: 5px 0 5px 0;
+      text-align: center;
   }
 
   #Length-Btn{
@@ -182,6 +183,7 @@ button{
     margin-top: 1rem;
     margin-bottom: 1rem;
     padding: 5px 0 5px 0;
+    text-align: center;
 }
 
 .Area-l{
