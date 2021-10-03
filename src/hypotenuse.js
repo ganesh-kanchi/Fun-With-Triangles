@@ -12,8 +12,9 @@ hypOutput.style.display = "none";
 // }
 
 calBtn.addEventListener("click", function hypCalculator() {
-    var hyp = Math.sqrt((lengthA.value * lengthA.value) + (lengthB.value * lengthB.value))
-    hypOutput.innerText = "the Hypotenuse is " + hyp + " units."
+    var hyp = Math.sqrt(Math.pow(lengthA.value,2) + Math.pow(lengthB.value , 2));
+    hyp = hyp.toFixed(2);
+    hypOutput.innerText = "the Hypotenuse is " + hyp + " units.";
     hypOutput.style.display = "block";
 }
 );
