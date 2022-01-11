@@ -4,19 +4,12 @@ const quizOutput = document.querySelector('#Quiz-output');
 
 const quizAnswers = ["90°", "Right Angled", "a + b + c", "85°"];
 
-function scoreCalculator() {
+quizBtn.addEventListener("click", () => {
     const quizResult = new FormData(quizForm);
     let index = 0, score = 0;
     for (let entry of quizResult.values()) {
-        if (entry === quizAnswers[index]) {
-            score = score + 1;
-        }
+        score =  (entry === quizAnswers[index]) ? score++ : score ;
         index = index + 1;
     }
-    quizOutput.innerText = "Your score is " + score + ".";
-}
-
-quizBtn.addEventListener("click", scoreCalculator);
-
-
-
+    quizOutput.innerText = `Your score is ${score}.`;
+});

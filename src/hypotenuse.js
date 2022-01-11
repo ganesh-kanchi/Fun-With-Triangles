@@ -5,16 +5,9 @@ const hypOutput = document.querySelector("#hyp-output")
 
 hypOutput.style.display = "none";
 
-// function hypCalculator() {
-//     var hyp = Math.sqrt((lengthA.value * lengthA.value) + (lengthB.value * lengthB.value))
-//     hypOutput.innerText = "the Hypotenuse is " + hyp + " units"
-//     hypOutput.style.display = "block";
-// }
-
-calBtn.addEventListener("click", function hypCalculator() {
+calBtn.addEventListener("click", () => {
     var hyp = Math.sqrt(Math.pow(lengthA.value,2) + Math.pow(lengthB.value , 2));
     hyp = hyp.toFixed(2);
-    hypOutput.innerText = "the Hypotenuse is " + hyp + " units.";
+    hypOutput.innerText = (Number(lengthA.value)===0  || Number(lengthB.value)===0) ? `The sides values cannot be Zero.` : `The Hypotenuse is ${hyp} units.`;
     hypOutput.style.display = "block";
-}
-);
+});
